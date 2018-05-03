@@ -35,9 +35,9 @@ double student :: getScore ()
   double total = 0.0;
   double answer = 0.0;
 
-  if ( grades.size() == 0 )
+  if ( grades.size() == 0.0 )
   {
-    answer = 0;
+    answer = 0.0;
     return answer;
   }
   else
@@ -47,5 +47,6 @@ double student :: getScore ()
       total += grades[i]; 
     }
     answer = total/grades.size(); 
+    return answer;
   }
 }
