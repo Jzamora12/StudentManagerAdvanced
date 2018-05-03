@@ -32,8 +32,8 @@ void student :: addGrade ( double letter )
 
 double student :: getScore ()
 {
-  double total;
-  double answer;
+  double total = 0.0;
+  double answer = 0.0;
     for ( int i=0; i < grades.size(); i++ )
     {
       total += grades[i]; 
